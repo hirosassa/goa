@@ -1,6 +1,7 @@
 module goa.design/goa/v3
 
 go 1.18
+toolchain go1.24.1
 
 require (
 	github.com/dimfeld/httppath v0.0.0-20170720192232-ee938bf73598
@@ -16,7 +17,7 @@ require (
 	golang.org/x/text v0.3.7
 	golang.org/x/tools v0.1.12
 	google.golang.org/grpc v1.48.0
-	google.golang.org/protobuf v1.28.1
+	google.golang.org/protobuf v1.36.6
 	gopkg.in/yaml.v3 v3.0.1
 )
 
